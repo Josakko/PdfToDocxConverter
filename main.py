@@ -45,8 +45,6 @@ def reset():
 
 def convert():
     global duration
-    file_path = file_path_label.cget("text")
-    save_path = save_path_label.cget("text")
     if file_path.endswith(".pdf"):
         if save_path:
             root.title("Converting File...")
